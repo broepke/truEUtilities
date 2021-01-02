@@ -1,0 +1,4 @@
+Thank you for installing truEUtilities Version 2.4.5
+
+Press the "Setup" button to proceed.
+Please view the "readme.txt" file in the installation folder when finished.

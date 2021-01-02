@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=truEutilities Standard
+
+
+[Package|truEutilities Standard|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\+Brian's Folder\Visual Studio Projects\truEutilities\Package
+
+[Package|truEutilities Standard|Configure DAO ISAMs]
+Applicable=No
+
+[Package|truEutilities Standard|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|truEutilities Standard|Files Found]
+
+[Package|truEutilities Standard|Files Released]
+
+[Package|truEutilities Standard|Missing Dependency Information]
+
+[Package|truEutilities Standard|Out-of-Date Dependency Information]
+
+[Package|truEutilities Standard|Files Added]
+
+[Package|truEutilities Standard|Files Removed]
+
+[Package|truEutilities Standard|Files In Project]
+D:\+Brian's Folder\Visual Studio Projects\truEutilities\truEutilities.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\scrrun.dll=Yes
+C:\WINNT\system32\Msvcrt.dll=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\SYSINFO.OCX=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|truEutilities Standard|Configure Registry Files]
+Applicable=No
+
+[Package|truEutilities Standard|Configure Remote Servers]
+Applicable=No
+
+[Package|truEutilities Standard|Install Locations]
+D:\+Brian's Folder\Visual Studio Projects\truEutilities\truEutilities.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\scrrun.dll=$(WinSysPath)
+C:\WINNT\system32\Msvcrt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\SYSINFO.OCX=$(WinSysPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+G:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|truEutilities Standard|Configure Shared Files]
+Applicable=Yes
+D:\+Brian's Folder\Visual Studio Projects\truEutilities\truEutilities.exe=No
+
+[Package|truEutilities Standard|Distribution]
+Type=single
+Size=
+Title=truEutilities
+
+[Package|truEutilities Standard|IconGroups]
+Group0=truEutilities
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|truEutilities Standard|truEutilities]
+Icon1=truEutilities.exe
+Title1=truEutilities
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|truEutilities Standard|Package]
+PackageFolder=D:\+Brian's Folder\Visual Studio Projects\truEutilities\Package
+ProjectFolder=D:\+Brian's Folder\Visual Studio Projects\truEutilities
+ServerSideCab=
+File1=D:\+Brian's Folder\Visual Studio Projects\truEutilities\Package\setup.exe
+File2=D:\+Brian's Folder\Visual Studio Projects\truEutilities\Package\Setup.Lst
+File3=D:\+Brian's Folder\Visual Studio Projects\truEutilities\Package\truEutilities.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
